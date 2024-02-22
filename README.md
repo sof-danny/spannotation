@@ -56,7 +56,7 @@ Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks
 
 ## Examples  
 ### Example 1: Row-Crop Segmentation
-![This shows the original image of a crop row]([https://drive.google.com/file/d/1-DUFSzAp8msmbS3p8g2I3LGAvoIVb1AH/view?usp=sharing](https://github.com/sof-danny/spannotation/blob/master/sample_images/row_crop.png))
+![This shows the original image of a crop row]((https://github.com/sof-danny/spannotation/blob/master/sample_images/row_crop.png))
 ![This image shows the mask generated using spannotation]([https://github.com/sof-danny/spannotation/blob/master/sample_images/dirt_road_mask.png](https://github.com/sof-danny/spannotation/blob/master/sample_images/row_crop_mask.png))
 
 
