@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='spannotation',
-    version='0.1.1',
+    version='0.1.2',
     author='Samuel O. Folorunsho',
     author_email='folorunshosamuel001@gmail.com',
     description="This Python package offers a simple yet powerful tool for image segmentation, particularly useful for navigation and path detection tasks in various environments. Utilizing minimal user input, it allows for the efficient segmentation of images into 'drivable' and 'non-drivable' regions, making it an ideal solution for a range of applications from agriculture to autonomous navigation.",
