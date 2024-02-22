@@ -1,4 +1,4 @@
-## Description of software
+# spannotation## Description of software
 The package introduces a novel approach to image annotation and segmentation, requiring users to select just three key points on an image. These points define a triangular area representing the region of interest, which the algorithm then uses to generate a binary mask. This mask distinctly categorizes the image into two classes: drivable and non-drivable regions.
 
 ## Key applications of this package include:
