@@ -83,6 +83,9 @@ Contributions to spannotation are welcome! reach out to [Folorunsho Samuel](mail
 ## License
 spannotation is released under the [MIT License](https://opensource.org/license/mit).
 
+## Project details
+Please check the gitup page : [Github](https://github.com/sof-danny/spannotation)
+
 
 ## Contact Info
 Please reach out via: 
@@ -102,7 +105,7 @@ title = {spannotation: Efficient Image Segmentation for Navigation Tasks},
 year = {2024},
 publisher = {GitHub},
 journal = {GitHub repository},
-howpublished = {\url{https://github.com/sof-danny/spannotation}}
+howpublished = {https://github.com/sof-danny/spannotation}
 }
 
 
