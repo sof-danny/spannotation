@@ -77,7 +77,7 @@ Sample semantic segmentation from the model trained with the data:
 
 
 ## Contributing
-Contributions to spannotation are welcome! reach out to Samuel Folorunsho 
+Contributions to spannotation are welcome! reach out to [Folorunsho Samuel](mailto:folorunshosamuel001@gmail.com)
 
 
 ## License
