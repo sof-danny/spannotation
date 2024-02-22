@@ -73,7 +73,7 @@ Training performance of 1030 images/masks used to train a U-Net model:
 
 Sample semantic segmentation from the model trained with the data:
 
-![Sample segmentation](https://drive.google.com/file/d/1zRJXZL9G-3EH-UMKsHWqTOmkAjjU250Z/view?usp=sharing)
+![Sample segmentation](https://github.com/sof-danny/spannotation/blob/master/sample_images/sample_segmentation.png)
 
 
 ## Contributing
