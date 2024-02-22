@@ -69,7 +69,7 @@ Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks
 
 Training performance of 1030 images/masks used to train a U-Net model:
 
-![Training performances](https://drive.google.com/file/d/1FiYiaBHcKCS2DKhXylfvkMQBUxHLGpNe/view?usp=sharing)
+![Training performances](https://github.com/sof-danny/spannotation/blob/master/sample_images/training_result.png)
 
 Sample semantic segmentation from the model trained with the data:
 
