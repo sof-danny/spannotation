@@ -1,0 +1,11 @@
+README.md
+setup.py
+Spannotation/__init__.py
+Spannotation/cli.py
+Spannotation/mask_generator.py
+spannotation.egg-info/PKG-INFO
+spannotation.egg-info/SOURCES.txt
+spannotation.egg-info/dependency_links.txt
+spannotation.egg-info/requires.txt
+spannotation.egg-info/top_level.txt
+test/test_main_module.py

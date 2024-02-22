@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: spannotation
+Version: 0.1.1
+Summary: This Python package offers a simple yet powerful tool for image segmentation, particularly useful for navigation and path detection tasks in various environments. Utilizing minimal user input, it allows for the efficient segmentation of images into 'drivable' and 'non-drivable' regions, making it an ideal solution for a range of applications from agriculture to autonomous navigation.
+Home-page: https://github.com/sof-danny/spannotation
+Author: Samuel O. Folorunsho
+Author-email: folorunshosamuel001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+## Description of software
+The package introduces a novel approach to image annotation and segmentation, requiring users to select just three key points on an image. These points define a triangular area representing the region of interest, which the algorithm then uses to generate a binary mask. This mask distinctly categorizes the image into two classes: drivable and non-drivable regions.
+
+## Key applications of this package include:
+
+1. Row Crop Management: In agricultural settings, such as cornfields, the package can segment row crops, identifying drivable paths for farm machinery and ensuring efficient navigation through the fields.
+2. Off-Road Navigation: For off-road scenarios, like dirt tracks, the tool can demarcate navigable paths, assisting in the planning and navigation of off-road vehicles.
+3. On-Road Navigation: In typical urban or rural roads, the package can be used to distinguish the actual road (drivable region) from its surroundings (non-drivable regions, including shoulders and adjacent land), aiding in basic navigation tasks.
+
+This tool is particularly useful for researchers and practitioners in autonomous vehicle navigation, agricultural robotics, and geographic information systems (GIS), where accurate and efficient image segmentation is critical.
+
+## Installation
+To install SPAnnotation, simply use pip: 
+
+pip install spannotation
+
+## Usage
+Here's a quick example of how to use spannotation:
+
+
+# Step 1: Install spannotation
+First, install the package using pip. Run the following command in a cell in your Jupyter Notebook:
+```  from spannotation import MaskGenerator ```
+
+# Step 2: Import the Package
+In a new cell, import the MaskGenerator class from the package:
+
+``` from spannotation import MaskGenerator ```
+
+# Step 3: Initialize the Generator
+Create an instance of the MaskGenerator:
+``` generator = MaskGenerator() ```
+
+# Step 4: Process Images
+Now, you can use the generator to process an image or a folder of images.
+
+To process a single image:
+
+``` generator.process_image('path/to/your/image.jpg', 'path/to/save/mask') ```
+
+To process all images in a folder:
+
+``` generator.process_folder('path/to/your/images', 'path/to/save/masks') ```
+
+Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks' with the actual paths on your system.
+
+
+
+## Examples  
+### Example 1: Row-Crop Segmentation
+![This shows the original image of a crop row](https://drive.google.com/file/d/1-DUFSzAp8msmbS3p8g2I3LGAvoIVb1AH/view?usp=sharing "Original image")
+![This image shows the mask generated using spannotation](https://drive.google.com/file/d/1v73FY7hSauSUQa3Ty5i8eQqNhH02onZ1/view?usp=share_link "Sample mask generated")
+
+
+### Example 2: Off-Road Navigation
+![This shows the original image of a dirt road](https://drive.google.com/file/d/1Oi74AV3QiFcn08a4IbmbNKQLivl1zYyb/view?usp=sharing "Original image")
+![This image shows the mask generated using spannotation](https://drive.google.com/file/d/1YtlFA-JOyS3TvCMzO_ppbhMQaEfFMWlW/view?usp=sharing "Sample mask generated")
+
+
+
+## Contributing
+Contributions to spannotation are welcome! reach out to Samuel Folorunsho 
+
+
+## License
+spannotation is released under the [MIT License](https://opensource.org/license/mit).
+
+
+## Contact Info
+Please reach out via [LinkedIn, email, phone]
+![Please reach out via](https://www.linkedin.com/in/samuelofolorunsho/ "LinkedIn") 
+
+![or Email](folorunshosamuel001@gmail.com) 
+
+## Citation
+
+If you use spannotation in your research or project, please consider citing it. Here is an example citation format you can use:
+
+@misc{spannotation,
+author = {Samuel Folorunsho},
+title = {spannotation: Efficient Image Segmentation for Navigation Tasks},
+year = {2024},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/sof-danny/spannotation}}
+}
+
+
+
