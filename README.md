@@ -86,7 +86,7 @@ When processing images, spannotation uses OpenCV to open a GUI window for point 
 
 ## Examples  
 ### Example 1: Row-Crop Segmentation
-![This shows the original image of a crop row](https://github.com/sof-danny/spannotation/blob/master/sample_images/row_crop.png)
+![This shows the original image of a crop row](https://github.com/sof-danny/spannotation/blob/master/sample_images/Row_crop.png)
 ![This image shows the mask generated using spannotation](https://github.com/sof-danny/spannotation/blob/master/sample_images/row_crop_mask.png)
 
 
