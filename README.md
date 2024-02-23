@@ -28,7 +28,7 @@ Here's a quick example of how to use spannotation:
 
 # Step 1: Install spannotation
 First, install the package using pip. Run the following command in a cell in your code editor:
-```  from spannotation import MaskGenerator ```
+``` pip install spannotation ```
 
 # Step 2: Import the Package
 In a new cell, import the MaskGenerator class from the package:
