@@ -61,7 +61,7 @@ After installing, you can use Spannotation to process images through the command
 
 ### Process a Single Image
 - To process a single image and generate a mask:
-  1. Run the command: `python -m Spannotation.cli`
+  1. Run the command: `python3 -m Spannotation.cli`
   2. Choose option `1` for a single image.
   3. Enter the full path to your image.
   4. Enter the full path where the mask should be saved.
