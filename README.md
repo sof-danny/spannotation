@@ -33,7 +33,7 @@ First, install the package using pip. Run the following command in a cell in you
 # Step 2: Import the Package
 In a new cell, import the MaskGenerator class from the package:
 
-``` from spannotation import MaskGenerator ```
+``` from Spannotation import MaskGenerator ```
 
 # Step 3: Initialize the Generator
 Create an instance of the MaskGenerator:
