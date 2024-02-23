@@ -21,8 +21,8 @@ class MaskGenerator:
                 mask = self.generate_mask(self.image, self.points)
                 cv2.imshow('mask', mask)
                 self.mask_generated = True
-                cv2.waitKey(0)  # Wait for key press to continue
-                cv2.destroyAllWindows()  # Close the image and mask windows
+                # Added print statement for debugging
+                print("Mask generation completed, close the mask window.")
 
     @staticmethod
     def generate_mask(image, points):
@@ -33,6 +33,7 @@ class MaskGenerator:
 
     def process_image(self, image_path, save_path):
         """Processes a single image for mask generation."""
+        print(f"Processing image: {image_path}")  # Debugging print
         self.image = cv2.imread(image_path)
         if self.image is None:
             raise ValueError("Could not read the image.")
@@ -41,23 +42,27 @@ class MaskGenerator:
 
         cv2.imshow('image', self.image)
         cv2.setMouseCallback('image', self.click_event)
-        cv2.waitKey(0)  
-        cv2.destroyAllWindows()  
+        cv2.waitKey(0)  # Wait for the click_event to complete
 
         if self.mask_generated:
             mask = self.generate_mask(self.image, self.points)
             base_name = os.path.basename(image_path)
             mask_save_path = os.path.join(save_path, base_name)
             cv2.imwrite(mask_save_path, mask)
-            print(f"Mask saved to {mask_save_path}")
+            print(f"Mask saved to {mask_save_path}")  # Confirm save
+
+        cv2.destroyAllWindows()  # Moved outside the if condition
 
     def process_folder(self, folder_path, save_path):
         """Processes all images in a given folder."""
+        print(f"Processing folder: {folder_path}")  # Debugging print
         if not os.path.exists(save_path):
             os.makedirs(save_path)
 
         for image_file in glob.glob(os.path.join(folder_path, '*')):
+            print(f"Found image: {image_file}")  # Debugging print
             try:
                 self.process_image(image_file, save_path)
             except ValueError as e:
                 print(f"Error processing {image_file}: {e}")
+
