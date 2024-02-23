@@ -28,6 +28,13 @@ If you have previously installed an older version:
 
 ``` pip install --upgrade spannotation ```
 
+or 
+
+If you want to install a specific version:
+
+``` pip install spannotation==0.1.9 ```
+
+
 ## Usage on Python code Editor
 Here's a quick example of how to use spannotation if you are running from a typical code editor like jupyter, VSCode, etc:
 
@@ -41,6 +48,13 @@ or
 If you have previously installed an older version:
 
 ``` pip install --upgrade spannotation ```
+
+or 
+
+If you want to install a specific version:
+
+``` pip install spannotation==0.1.9 ```
+
 
 
 # Step 2: Import the Package
@@ -75,6 +89,13 @@ or
 If you have previously installed an older version:
 
 ``` pip install --upgrade spannotation ```
+
+or 
+
+If you want to install a specific version:
+
+``` pip install spannotation==0.1.9 ```
+
 
 
 After installing, you can use Spannotation to process images through the command line.
