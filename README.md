@@ -26,8 +26,7 @@ or
 
 If you have previously installed an older version:
 
-``` pip install --upgrade spannotation
-```
+``` pip install --upgrade spannotation ```
 
 ## Usage on Python code Editor
 Here's a quick example of how to use spannotation if you are running from a typical code editor like jupyter, VSCode, etc:
@@ -41,8 +40,7 @@ or
 
 If you have previously installed an older version:
 
-``` pip install --upgrade spannotation
-```
+``` pip install --upgrade spannotation ```
 
 
 # Step 2: Import the Package
@@ -76,9 +74,7 @@ or
 
 If you have previously installed an older version:
 
-``` pip install --upgrade spannotation
-```
-
+``` pip install --upgrade spannotation ```
 
 
 After installing, you can use Spannotation to process images through the command line.
@@ -106,6 +102,13 @@ When processing images, spannotation uses OpenCV to open a GUI window for point 
 - If the image window does not appear in front, please manually click on the window from your taskbar or window manager.
 - This behavior can vary based on your operating system and its window management settings.
 
+
+## Uninstalling spannotation
+We hate to see you go but if you have to uninstalll for any reasons. Please use:
+
+``` pip  uninstall spannotation ```
+
+This will remove the spannotation package from your Python environment.
 
 
 ## Examples  
