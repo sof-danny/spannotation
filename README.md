@@ -26,7 +26,7 @@ or
 
 If you have previously installed an older version:
 
-```pip install --upgrade spannotation
+``` pip install --upgrade spannotation
 ```
 
 ## Usage on Python code Editor
@@ -41,7 +41,7 @@ or
 
 If you have previously installed an older version:
 
-```pip install --upgrade spannotation
+``` pip install --upgrade spannotation
 ```
 
 
@@ -76,7 +76,7 @@ or
 
 If you have previously installed an older version:
 
-```pip install --upgrade spannotation
+``` pip install --upgrade spannotation
 ```
 
 
