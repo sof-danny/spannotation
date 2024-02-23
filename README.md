@@ -7,7 +7,7 @@ The package introduces a novel approach to image annotation and segmentation, re
 2. Off-Road Navigation: For off-road scenarios, like dirt tracks, the tool can demarcate navigable paths, assisting in the planning and navigation of off-road vehicles.
 3. On-Road Navigation: In typical urban or rural roads, the package can be used to distinguish the actual road (drivable region) from its surroundings (non-drivable regions, including shoulders and adjacent land), aiding in basic navigation tasks.
 
-This tool is particularly useful for researchers and practitioners in autonomous vehicle navigation, agricultural robotics, and geographic information systems (GIS), where accurate and efficient image segmentation is critical.
+This tool is particularly useful for researchers and practitioners in autonomous vehicle navigation, agricultural robotics, and geographic information systems (GIS), where accurate and efficient image segmentation is critical.Please read more about the project on the [Github](https://github.com/sof-danny/spannotation) page. 
 
 ## Time comparison with dense annotation 
 
@@ -22,9 +22,7 @@ To install SPAnnotation, simply use pip:
 
 ``` pip install spannotation ```
 
-or 
-
-If you have previously installed an older version:
+then to ensure the latest version is installed: 
 
 ``` pip install --upgrade spannotation ```
 
@@ -43,9 +41,8 @@ Here's a quick example of how to use spannotation if you are running from a typi
 First, install the package using pip. Run the following command in a cell in your code editor:
 ``` pip install spannotation ```
 
-or 
-
-If you have previously installed an older version:
+ 
+then to ensure the latest version is installed:
 
 ``` pip install --upgrade spannotation ```
 
@@ -84,9 +81,7 @@ Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks
 ### Installation
 ``` pip install spannotation ```
 
-or 
-
-If you have previously installed an older version:
+then to ensure the latest version is installed:
 
 ``` pip install --upgrade spannotation ```
 
@@ -155,7 +150,7 @@ Sample semantic segmentation from the model trained with the data:
 
 
 ## Contributing
-Contributions to spannotation are welcome! reach out to [Folorunsho Samuel](mailto:folorunshosamuel001@gmail.com)
+Contributions to spannotation are welcome! reach out to [Folorunsho Samuel](mailto:folorunshosamuel001@gmail.com) or help resolve the pending  [issues]([https://opensource.org/license/mit](https://github.com/sof-danny/spannotation/issues))
 
 
 ## License
