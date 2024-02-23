@@ -10,6 +10,7 @@ class MaskGenerator:
         self.mask_generated = False
 
     def click_event(self, event, x, y, flags, param):
+        """Handles mouse click events to select points on the image."""
         if event == cv2.EVENT_LBUTTONDOWN:
             if len(self.points) < 3:
                 self.points.append((x, y))
@@ -17,17 +18,19 @@ class MaskGenerator:
                 cv2.imshow('image', self.image)
 
             if len(self.points) == 3 and not self.mask_generated:
-                mask = self.generate_mask(self.points)
+                mask = self.generate_mask(self.image, self.points)
                 cv2.imshow('mask', mask)
                 self.mask_generated = True
 
     @staticmethod
     def generate_mask(image, points):
+        """Generates a binary mask based on the selected points."""
         mask = np.zeros(image.shape[:2], dtype=np.uint8)
         cv2.fillPoly(mask, [np.array(points)], 255)
         return mask
 
     def process_image(self, image_path, save_path):
+        """Processes a single image for mask generation."""
         self.image = cv2.imread(image_path)
         if self.image is None:
             raise ValueError("Could not read the image.")
@@ -37,6 +40,7 @@ class MaskGenerator:
         cv2.imshow('image', self.image)
         cv2.setMouseCallback('image', self.click_event)
         cv2.waitKey(0)
+        cv2.destroyAllWindows()  # Close the image window
 
         if self.mask_generated:
             mask = self.generate_mask(self.image, self.points)
@@ -44,6 +48,7 @@ class MaskGenerator:
             cv2.imwrite(os.path.join(save_path, base_name), mask)
 
     def process_folder(self, folder_path, save_path):
+        """Processes all images in a given folder."""
         if not os.path.exists(save_path):
             os.makedirs(save_path)
 
