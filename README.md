@@ -22,8 +22,8 @@ To install SPAnnotation, simply use pip:
 
 ``` pip install spannotation ```
 
-## Usage
-Here's a quick example of how to use spannotation:
+## Usage on Python code Editor
+Here's a quick example of how to use spannotation if you are running from a typical code editor like jupyter, VSCode, etc:
 
 
 # Step 1: Install spannotation
@@ -51,6 +51,40 @@ To process all images in a folder:
 ``` generator.process_folder('path/to/your/images', 'path/to/save/masks') ```
 
 Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks' with the actual paths on your system.
+
+
+## Usage on Command line / Terminal
+Here's a quick example of how to use spannotation if you are running from command line or terminal:
+
+
+### Installation
+
+Ensure `Spannotation` is installed:
+
+```
+pip install spannotation
+```
+## Step 1: Run the tool
+Open your terminal or command prompt.
+Run Spannotation by typing:
+``` spannotation ```
+
+## Step 2: Choose operation mode
+Enter 1 to process a single image.
+Enter 2 to process all images in a folder.
+
+### For a Single Image
+Enter the full path to the image when prompted.
+Specify the path to save the mask.
+The image will open in a window. Click to select three points defining the drivable area.
+The mask will be generated and saved in the specified directory.
+
+
+### For Images in a Folder
+Enter the full path to the folder containing the images.
+Specify the save path for the masks.
+For each image in the folder, select three points. Masks will be saved automatically.
+
 
 
 
