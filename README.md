@@ -59,14 +59,14 @@ Here's a quick example of how to use spannotation if you are running from comman
 
 ### Installation
 
-Ensure `Spannotation` is installed:
+Ensure `spannotation` is installed:
 
 ```
 pip install spannotation
 ```
 ## Step 1: Run the tool
 Open your terminal or command prompt.
-Run Spannotation by typing:
+Run spannotation by typing:
 ``` spannotation ```
 
 ## Step 2: Choose operation mode
