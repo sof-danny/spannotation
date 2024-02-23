@@ -22,6 +22,13 @@ To install SPAnnotation, simply use pip:
 
 ``` pip install spannotation ```
 
+or 
+
+If you have previously installed an older version:
+
+```pip install --upgrade spannotation
+```
+
 ## Usage on Python code Editor
 Here's a quick example of how to use spannotation if you are running from a typical code editor like jupyter, VSCode, etc:
 
@@ -29,6 +36,14 @@ Here's a quick example of how to use spannotation if you are running from a typi
 # Step 1: Install spannotation
 First, install the package using pip. Run the following command in a cell in your code editor:
 ``` pip install spannotation ```
+
+or 
+
+If you have previously installed an older version:
+
+```pip install --upgrade spannotation
+```
+
 
 # Step 2: Import the Package
 In a new cell, import the MaskGenerator class from the package:
@@ -56,6 +71,15 @@ Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks
 ## Usage on Command line / Terminal
 ### Installation
 ``` pip install spannotation ```
+
+or 
+
+If you have previously installed an older version:
+
+```pip install --upgrade spannotation
+```
+
+
 
 After installing, you can use Spannotation to process images through the command line.
 
