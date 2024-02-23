@@ -13,7 +13,7 @@ class TestMaskGenerator(unittest.TestCase):
         mock_image = np.zeros((3, 3, 3), dtype=np.uint8)
 
         # Define points that form a triangle within the image
-        points = [(0, 0), (2, 0), (1, 2)]
+        points = [(0, 1), (2, 0), (1, 2)]
 
         # Generate the mask
         mask = self.generator.generate_mask(mock_image, points)
