@@ -21,6 +21,8 @@ class MaskGenerator:
                 mask = self.generate_mask(self.image, self.points)
                 cv2.imshow('mask', mask)
                 self.mask_generated = True
+                cv2.waitKey(0)  # Wait for key press to continue
+                cv2.destroyAllWindows()  # Close the image and mask windows
 
     @staticmethod
     def generate_mask(image, points):
@@ -39,13 +41,15 @@ class MaskGenerator:
 
         cv2.imshow('image', self.image)
         cv2.setMouseCallback('image', self.click_event)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()  # Close the image window
+        cv2.waitKey(0)  
+        cv2.destroyAllWindows()  
 
         if self.mask_generated:
             mask = self.generate_mask(self.image, self.points)
             base_name = os.path.basename(image_path)
-            cv2.imwrite(os.path.join(save_path, base_name), mask)
+            mask_save_path = os.path.join(save_path, base_name)
+            cv2.imwrite(mask_save_path, mask)
+            print(f"Mask saved to {mask_save_path}")
 
     def process_folder(self, folder_path, save_path):
         """Processes all images in a given folder."""
