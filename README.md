@@ -50,41 +50,37 @@ To process all images in a folder:
 
 ``` generator.process_folder('path/to/your/images', 'path/to/save/masks') ```
 
-Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks' with the actual paths on your system.
+Replace 'path/to/your/image.jpg', 'path/to/your/images', and 'path/to/save/masks' with the actual paths on your system.**
 
 
 ## Usage on Command line / Terminal
-Here's a quick example of how to use spannotation if you are running from command line or terminal:
-
-
 ### Installation
+``` pip install spannotation ```
 
-Ensure `spannotation` is installed:
+After installing, you can use Spannotation to process images through the command line.
 
-```
-pip install spannotation
-```
-## Step 1: Run the tool
-Open your terminal or command prompt.
-Run spannotation by typing:
-``` spannotation ```
+### Process a Single Image
+- To process a single image and generate a mask:
+  1. Run the command: `python -m Spannotation.cli`
+  2. Choose option `1` for a single image.
+  3. Enter the full path to your image.
+  4. Enter the full path where the mask should be saved.
 
-## Step 2: Choose operation mode
-Enter 1 to process a single image.
-Enter 2 to process all images in a folder.
+### Process Multiple Images in a Folder
 
-### For a Single Image
-Enter the full path to the image when prompted.
-Specify the path to save the mask.
-The image will open in a window. Click to select three points defining the drivable area.
-The mask will be generated and saved in the specified directory.
+- To process multiple images in a folder:
+  1. Run the command: `python3 -m Spannotation.cli`
+  2. Choose option `2` for a folder.
+  3. Enter the full path to your folder containing images.
+  4. Enter the full path where the masks should be saved.
 
+## Important Notice for GUI Window
 
-### For Images in a Folder
-Enter the full path to the folder containing the images.
-Specify the save path for the masks.
-For each image in the folder, select three points. Masks will be saved automatically.
+When processing images, spannotation uses OpenCV to open a GUI window for point selection. Please note:
 
+- After the first use, the OpenCV window might not automatically come to the foreground for subsequent image processing.
+- If the image window does not appear in front, please manually click on the window from your taskbar or window manager.
+- This behavior can vary based on your operating system and its window management settings.
 
 
 
