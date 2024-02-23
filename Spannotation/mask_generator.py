@@ -21,7 +21,7 @@ class MaskGenerator:
                 mask = self.generate_mask(self.image, self.points)
                 cv2.imshow('mask', mask)
                 self.mask_generated = True
-                # Added print statement for debugging
+               
                 print("Mask generation completed, close the mask window.")
 
     @staticmethod
@@ -33,7 +33,7 @@ class MaskGenerator:
 
     def process_image(self, image_path, save_path):
         """Processes a single image for mask generation."""
-        print(f"Processing image: {image_path}")  # Debugging print
+        print(f"Processing image: {image_path}") 
         self.image = cv2.imread(image_path)
         if self.image is None:
             raise ValueError("Could not read the image.")
@@ -42,8 +42,8 @@ class MaskGenerator:
 
         cv2.imshow('image', self.image)
         cv2.setMouseCallback('image', self.click_event)
-        cv2.waitKey(0)  # Wait for the click_event to complete
-
+        cv2.waitKey(0)  
+        
         if self.mask_generated:
             mask = self.generate_mask(self.image, self.points)
             base_name = os.path.basename(image_path)
@@ -51,7 +51,7 @@ class MaskGenerator:
             cv2.imwrite(mask_save_path, mask)
             print(f"Mask saved to {mask_save_path}")  # Confirm save
 
-        cv2.destroyAllWindows()  # Moved outside the if condition
+        cv2.destroyAllWindows()  
 
     def process_folder(self, folder_path, save_path):
         """Processes all images in a given folder."""
