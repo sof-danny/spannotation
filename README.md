@@ -11,6 +11,14 @@ The package introduces a novel approach to image annotation and segmentation, re
 
 This tool is particularly useful for researchers and practitioners in autonomous vehicle navigation, agricultural robotics, and geographic information systems (GIS), where accurate and efficient image segmentation is critical.Please read more about the project on the [Github](https://github.com/sof-danny/spannotation) page. 
 
+Please check the package download statistics:
+
+[![Downloads](https://static.pepy.tech/badge/spannotation)](https://pepy.tech/project/spannotation)
+
+[![Downloads](https://static.pepy.tech/badge/spannotation/month)](https://pepy.tech/project/spannotation)
+
+[![Downloads](https://static.pepy.tech/badge/spannotation/week)](https://pepy.tech/project/spannotation)
+
 ## Time comparison with dense annotation 
 
 Spannotation saved average of **30 seconds** on one annotation of an average crop row or dirt road. 
