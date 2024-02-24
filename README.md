@@ -40,7 +40,7 @@ or
 
 If you want to install a specific version:
 
-``` pip install spannotation==0.1.9 ```
+``` pip install spannotation==0.1.11 ```
 
 
 ## Usage on Python code Editor
@@ -60,7 +60,7 @@ or
 
 If you want to install a specific version:
 
-``` pip install spannotation==0.1.9 ```
+``` pip install spannotation==0.1.11 ```
 
 
 
