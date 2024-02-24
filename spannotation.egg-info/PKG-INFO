@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: spannotation
-Version: 0.1.13
+Version: 0.1.14
 Summary: This Python package offers a simple yet powerful tool for image segmentation, particularly useful for navigation and path detection tasks in various environments. Utilizing minimal user input, it allows for the efficient segmentation of images into 'drivable' and 'non-drivable' regions, making it an ideal solution for a range of applications from agriculture to autonomous navigation.
 Home-page: https://github.com/sof-danny/spannotation
 Author: Samuel O. Folorunsho
