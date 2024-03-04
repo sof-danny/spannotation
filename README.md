@@ -183,12 +183,12 @@ Please reach out via:
 If you use spannotation in your research or project, please consider citing it. Here is an example citation format you can use:
 
 @misc{spannotation,
-author = {Samuel Folorunsho},
-title = {spannotation: Efficient Image Segmentation for Navigation Tasks},
+author = {Samuel O. Folorunsho, William R. Norris},
+title = {Spannotation: Enhancing Semantic Segmentation for Autonomous Navigation with Efficient Image Annotation},
 year = {2024},
-publisher = {GitHub},
-journal = {GitHub repository},
-howpublished = {https://github.com/sof-danny/spannotation}
+publisher = {arXiv},
+journal = {arXiv preprint},
+howpublished = {https://arxiv.org/abs/2402.18084}
 }
 
 
