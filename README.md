@@ -187,7 +187,7 @@ author = {Samuel O. Folorunsho, William R. Norris},
 title = {Spannotation: Enhancing Semantic Segmentation for Autonomous Navigation with Efficient Image Annotation},
 year = {2024},
 publisher = {arXiv},
-journal = {arXiv preprint},
+journal = {cs.CV},
 howpublished = {https://arxiv.org/abs/2402.18084}
 }
 
