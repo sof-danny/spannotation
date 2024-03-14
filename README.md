@@ -188,7 +188,7 @@ title = {Spannotation: Enhancing Semantic Segmentation for Autonomous Navigation
 year = {2024},
 publisher = {arXiv},
 journal = {cs.CV},
-howpublished = {http://dx.doi.org/10.13140/RG.2.2.35355.85282}
+howpublished = {http://dx.doi.org/10.13140/RG.2.2.35355.85282
 }
 
 
