@@ -167,7 +167,7 @@ Contributions to spannotation are welcome! reach out to [Folorunsho Samuel](mail
 spannotation is released under the [MIT License](https://opensource.org/license/mit).
 
 ## Project details
-Please check the gitup page : [Github](https://github.com/sof-danny/spannotation)
+Please check the github page : [Github](https://github.com/sof-danny/spannotation)
 
 
 ## Contact Info
